@@ -32,7 +32,7 @@ widows操作系统下：
 
 先到python官网下载python并安装
 
-然后克隆次项目到本地后，需要在backend目录下再新建一个backend目录，之后的操作如下
+然后克隆次项目到本地后，需要在backend目录下再新建一个backend目录（空目录，否则安装poetry包的时候会报错），之后的操作如下
 
 Run the backend (I use Poetry for package management - `pip install poetry` if you don't have it):
 
@@ -73,7 +73,7 @@ MOCK=true poetry run uvicorn main:app --reload --port 7001
 ## Configuration
 
 - You can configure the OpenAI base URL if you need to use a proxy: Set OPENAI_BASE_URL in the `backend/.env` or directly in the UI in the settings dialog
-
+- 我们可以在前端的ui界面配置api的代理地址，以及api key
 ## Docker
 
 If you have Docker installed on your system, in the root directory, run:
