@@ -28,7 +28,7 @@ See the [Examples](#-examples) section below for more demos.
 
 The app has a React/Vite frontend and a FastAPI backend. You will need an OpenAI API key with access to the GPT-4 Vision API.
 
-widows操作系统下：
+操作如下：
 
 先到python官网下载python并安装
 
@@ -36,7 +36,9 @@ widows操作系统下：
 
 Run the backend (I use Poetry for package management - `pip install poetry` if you don't have it):
 
- 安装完poetry包之后，不要急关命令行，运行poetry命令可能会提示他不是有效命令，此时命令行会提示需要把包的路径添加进入Windows的环境变量；此时命令行里有路径，直接复制然后加入window里的path环境变量即可。
+通过pip install poetry安装poetry这个包管理工具
+
+安装完poetry包之后，不要急关命令行，运行poetry命令可能会提示他不是有效命令，此时命令行会提示需要把包的路径添加进入Windows的环境变量；此时命令行里有路径，直接复制然后加入window里的path环境变量即可。
  
 ```bash
 cd backend
